@@ -53,13 +53,26 @@ export function Footer() {
           <div>
             <h4 className="text-xs font-semibold uppercase tracking-wider text-flux-lavender mb-4">Legal</h4>
             <ul className="flex flex-col gap-2.5">
-              {["Privacy Policy", "Terms of Service", "Security", "GDPR"].map((item) => (
-                <li key={item}>
-                  <a href="#" className="text-sm text-flux-lavender/70 transition-colors hover:text-[#ffffff]">
-                    {item}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a href="/privacy" className="text-sm text-flux-lavender/70 transition-colors hover:text-[#ffffff]">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="/terms" className="text-sm text-flux-lavender/70 transition-colors hover:text-[#ffffff]">
+                  Terms of Service
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-sm text-flux-lavender/70 transition-colors hover:text-[#ffffff]">
+                  Security
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-sm text-flux-lavender/70 transition-colors hover:text-[#ffffff]">
+                  GDPR
+                </a>
+              </li>
             </ul>
           </div>
         </div>
